@@ -1,0 +1,58 @@
+@import '~/assets/variables.scss';
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .divider {
+    margin: 15px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 60px;
+    width: 100%;
+  }
+
+  .guide {
+    position: relative;
+    height: 100px;
+
+    .link {
+      position: absolute;
+      left: 35%;
+      bottom: 0;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 12px;
+}
